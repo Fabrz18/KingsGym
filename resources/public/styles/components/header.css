@@ -35,7 +35,15 @@ header nav .principal-navigation .principal-navigation-options{
     padding: 15px;
     color: #000000;
 }
-
+header nav .principal-navigation .principal-navigation-options #Gyms{
+    display: "";
+}
+header nav .principal-navigation .principal-navigation-options #Reservations{
+    display: "";
+}
+header nav .principal-navigation .principal-navigation-options #Inscribite{
+    display: "";
+}
 header nav .principal-navigation .principal-navigation-options:hover{
     border-radius: 50px;
     color: white;
