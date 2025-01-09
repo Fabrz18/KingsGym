@@ -6,19 +6,25 @@
     <link rel="shortcut icon" href="https://assets3.smartfit.com.br/assets/new-home-v4-assets/logo-dark.svg">
     <title>KingsGym</title>
     <link rel="stylesheet" href="./resources/public/styles/style.css">
-    <!---Estilos del header-->
-    <link rel="stylesheet" href="./resources/public/styles/components/header.css">
-    <!--Estilos del main-->
-    <link rel="stylesheet" href="./resources/public/styles/pages/index/PostPromotions.css">
+    <!--Recursos Header-->
+        <!---Estilos del header-->
+            <link rel="stylesheet" href="./resources/public/styles/components/header.css">
+        <!--Scripts del header-->
+        <script src="./resources/public/scripts/components/header.js"></script>
+    <!--Recursos Header-->
+        <!--Estilos del main-->
+            <link rel="stylesheet" href="./resources/public/styles/pages/index/PostPromotions.css">
+        <!--Scripts del main-->
+        <script src="./resources/public/scripts/pages/index/promotions.js"></script>
 </head>
 <body>
 
     <header>
-        <nav class="">
-            <ul class="logo">
+        <nav class="principal">
+            <ul class="logo" id="logoIco">
                 <a href="./index.html"><img src="https://assets3.smartfit.com.br/assets/new-home-v4-assets/logo-dark.svg" alt="KingsGymLogo"></a>
             </ul>
-            <ul class="principal-navigation">
+            <ul class="principal-navigation" id="principal-navigationId">
                 <li><a class="principal-navigation-options" href="./resources/public/pages/gyms.html" id="Gyms">Gimnasios</a></li>
                 <li><a class="principal-navigation-options" href="./resources/public/pages/reservations.html" id="Reservations">Reservas</a></li>
                 <li><a class="principal-navigation-options" href="./resources/public/pages/gyms.html" id="Inscribite">Inscribite ya!</a></li>
@@ -27,8 +33,7 @@
     </header>
     <main>
         <div class="post-photo">
-            <div class="PostPromotions">
-                <a class="" href=""><img src="https://assets.smartfit.com.br/attachments/1b6487cd5ba8a6db438c031001dc85060fad4be1/store/1a526fec7ca03bc9c06d4b756324cfa6a3b1e9f4dce2110eec10114c09fa/banner_desktop" alt="NewPromotion" title="Nuevas Promociones"></a>
+            <div class="PostPromotions" id="PostPromotionsId">
             </div>
         </div>
     </main>

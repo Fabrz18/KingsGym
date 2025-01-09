@@ -5,7 +5,9 @@ header {
 header nav{
     padding: 20px;
     display: flex;
-    margin-left:  1.5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-right: 1.5%;
 }
 header nav .logo {
@@ -20,7 +22,7 @@ header nav .logo img {
     height: 100%;
 }
 
-header nav .principal-navigation{
+header nav #principal-navigationId{
     justify-content: center;
     align-items: center;
     display: flex;
